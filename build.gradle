@@ -63,7 +63,7 @@ task printProps {
 		}
 }
 
-task printProps2 {
+task printProps {
 		doLast {
 			println "App name: ${appName}"
 			println "Training user name: ${trainingUserName}"
