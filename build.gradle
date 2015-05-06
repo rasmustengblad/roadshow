@@ -63,6 +63,22 @@ task printProps {
 		}
 }
 
+task printProps2 {
+		doLast {
+			println "App name: ${appName}"
+			println "Training user name: ${trainingUserName}"
+			println "Artifactory URL and port: ${artifactoryUrlAndPort}"
+			println "Tomcat host name 'tomcatHostname':      ${tomcatHostname}"
+            println "Tomcat port 'tomcatPort':    ${tomcatPort}"
+            println "Tomcat port 'tomcatUrlAndPort':    ${tomcatUrlAndPort}"
+			println "Deploy context: ${deployContext}"
+			println "Deploy path: ${deployPath}"
+			println "Version: ${version}"
+			println "Git version: ${gitVersion}"
+			println "Git repo: ${gitRepoUrl}"
+		}
+}
+
 
 description = """"""
 
