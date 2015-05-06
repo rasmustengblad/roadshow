@@ -1,5 +1,7 @@
 package net.praqma.roadshow.model;
 
+import java.util.ArrayList;
+
 public class CalculatorModelImpl implements CalculatorModel {
 
     @Override
@@ -12,7 +14,8 @@ public class CalculatorModelImpl implements CalculatorModel {
                 return 0d;
             } else {
                 res *= numbers[i].doubleValue();
-            }              
+            }
+            ArrayList al = new ArrayList();
         }
         return res;
     }
