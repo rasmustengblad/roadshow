@@ -24,7 +24,7 @@ public class Calculator extends HttpServlet implements Serializable{
     public Calculator() {
         super();
         String dummy = new String();
-        System.out.println(dummy.valueOf(42));
+        System.out.println(String.valueOf(42));
     }
 
     @Override
